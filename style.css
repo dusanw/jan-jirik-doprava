@@ -23,10 +23,14 @@ a {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     background-color: #e21c21;
     text-align: center;
     padding-top: 2rem;
-    height: 13rem;
+    /* height: 13rem; */
 }
 
 .contact-line {
@@ -36,7 +40,7 @@ a {
     justify-content: space-between;
     background-color: #2f2e2e;
     color: white;
-    text-shadow: ;
+    /* text-shadow: ; */
 }
 
 #title {
@@ -45,7 +49,7 @@ a {
     align-items: baseline;
     gap: 0rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .header h1 {
